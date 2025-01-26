@@ -30,13 +30,17 @@ This project processes and visualizes patient health data to identify trends and
 
 ## Visualisations
 - **Categorical Plot**: Displays distributions of health metrics (e.g., cholesterol, BMI) for patients with and without cardiovascular disease.
-  ![Categorical Plot](bar_plot.png)
+  
+  ![Categorical Plot](bar_graph.png)
+  
   - **Activity**: Dataset suggests that a slightly larger proportion of patients without cardiovascular disease are physically active compared to those with the disease.
   - **Cholesterol and Glucose**: High cholesterol and glucose levels are more frequent in patients with cardiovascular disease.
   - **Overweight**: Overweight individuals are prevalent in both groups but are slightly more common in the cardiovascular disease group.
   
 - **Heatmap**: Highlights correlations between variables such as blood pressure, cholesterol, and BMI.
+
     ![Heatmap](heatmap.png)
+  
   - Weight and height exhibit a moderate correlation (**0.5**), indicating taller individuals tend to weigh more.
   - Systolic (ap_hi) and diastolic (ap_lo) blood pressures have a mild positive correlation (**0.4**).
   - Overweight status is strongly correlated with weight (**0.7**), as expected from the BMI calculation.
